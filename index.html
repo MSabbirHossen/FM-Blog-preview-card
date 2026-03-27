@@ -14,8 +14,72 @@
 
     <title>Frontend Mentor | Blog preview card</title>
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <!-- Feel free to remove these styles or customize in your own stylesheet 👍 -->
     <style>
+      *{
+        border: 1px solid black;
+        padding: 0.5rem;
+        border-radius: 1rem;
+
+      }
+      body {
+        background-color: hsl(47, 88%, 63%);
+        
+        
+      }
+      .main {
+        max-width: 1440px;
+
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        
+
+
+      }
+      .card {
+        background-color: hsl(0, 0%, 100%);
+        width: 300px;
+        padding: 1rem;
+        border-radius: 1.5rem;
+        /* border: 1px solid black; */
+        
+      }
+      .card img{
+        width: 275px;
+        padding: 0.5rem;
+        border-radius: 1rem;
+        margin: auto;
+        /* border: 1px solid black; */
+
+
+
+      }
+      .batch{
+        background-color:hsl(47, 88%, 63%);
+        /* padding: 0.5rem;
+        border-radius: 0.5rem; */
+        font-weight: 600;
+        display: inline;
+        /* margin: 100px 0px; */
+        
+      }
+      .date{
+        font-weight: 500;
+      }
+      .profile{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        /* border: 1px solid black; */
+      }
+
+      .profile img {
+        width: 50px;
+      }
+
       .attribution {
         font-size: 11px;
         text-align: center;
@@ -30,17 +94,18 @@
       <div class="card">
         <img src="./assets/images/illustration-article.svg" alt="card-img" />
         <div class="batch">Learning</div>
-        <div>Published 21 Dec 2023</div>
+        <div class="date">Published 21 Dec 2023</div>
         <h2 class="card-title">HTML & CSS foundations</h2>
         <p>
           These languages are the backbone of every website, defining structure,
           content, and presentation.
         </p>
-        <div>
+        <div class="profile">
           <img src="./assets/images/image-avatar.webp" alt="profile-pic" />
           <h4>Greg Hooper</h4>
         </div>
       </div>
+      
     </div>
 
     <div class="attribution">
