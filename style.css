@@ -1,0 +1,70 @@
+
+      @import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+
+      * {
+        font-family: "Figtree", sans-serif;
+        padding: 0.5rem;
+        border-radius: 1rem;
+        margin: auto;
+      }
+      body {
+        background-color: hsl(47, 88%, 63%);
+      }
+      .main {
+        max-width: 1440px;
+
+        display: flex;
+        height: 100vh;
+      }
+      .card {
+        background-color: hsl(0, 0%, 100%);
+        width: 20rem;
+        border-radius: 1.5rem;
+        box-shadow:;
+      }
+      .card img {
+        width: 17rem;
+        margin: auto;
+      }
+      .batch {
+        background-color: hsl(47, 88%, 63%);
+        font-weight: 600;
+        display: inline;
+        border-radius: 0.4rem;
+      }
+      .date {
+        font-weight: 500;
+      }
+
+      .card-title:hover {
+        color: hsl(47, 88%, 63%);
+      }
+      .description {
+        color: hsl(0, 0%, 42%);
+        text-align: justify;
+      }
+      .profile {
+        display: flex;
+      }
+      h4 {
+        text-align: right;
+      }
+
+      .profile img {
+        width: 3rem;
+      }
+
+      .attribution {
+        font-size: 0.9rem;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+
+      @media screen and (max-width: 375px) {
+        body {
+          background-color: lightgreen;
+        }
+      }
+    
